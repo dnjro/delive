@@ -9,12 +9,13 @@
 # 使い方
 mampのlocalhostにphpnewのフォルダごと入れてlogin.phpにアクセスしてください
 #権限別ログイン
-
+//
 管理者でログインする場合　メールアドレス:ji@gmail.com パスワード：1
 
 使用可能機能
 
 注文,注文管理画面にて全店舗の注文状況が確認可能,パスワードリセット,登録情報編集
+//
 
 出店者でログインする場合　メールアドレス:owl@gmail.com or yamada@gmail.com or tennpura@gmail.com パスワード: 1
 
