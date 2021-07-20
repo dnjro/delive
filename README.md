@@ -8,7 +8,9 @@ mampのlocalhostにphpnewのフォルダごと入れてlogin.phpにアクセス�
 #権限別ログイン
 
 管理者でログインする場合　メールアドレス:ji@gmail.com パスワード：1
+
 出店者でログインする場合　メールアドレス:owl@gmail.com or yamada@gmail.com or tennpura@gmail.com パスワード: 1
+
 一般ユーザでログインする場合　メールアドレス:ippann@gmail.com パスワード:1
 
 # 環境
