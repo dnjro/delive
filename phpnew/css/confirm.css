@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	/*font-size: 100%;*/
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+
+}
+
+body {
+	font-family:'roboto','Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,Osaka,'ＭＳ Ｐゴシック',Arial,sans-serif;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.back{
+	background-image: url("../photo/bar.jpg");
+	height: 80vh;
+	width: auto;
+	background-size: auto 100%;
+	background-position: center ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+header{
+	background-color: black;
+	height: 10vh
+}
+
+footer{
+	background-color: black;
+	height: 10vh
+}
+
+p{
+	color: black;
+	opacity: 0.9
+
+}
+
+input{
+	background-color: gray;
+	color: #65d1f8;
+}
+
+label{
+	color: #65d1f8;
+}
+
+h1{
+	
+	opacity: 0.9;
+	color: #65d1f8
+}
+
+.confirm{
+	background-color: rgba(0,0,0,0.8);
+}
+
+.confirmgroup{
+	width: 800px;
+	border: solid 1px #3399cc;
+	margin: auto;
+	
+	border-radius: 10px;
+	
+
+}
+.toiawase{
+	border-bottom: solid 1px #3399cc;
+	
+}
+
+.toiawasepp{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.ulgroup{
+	width: 700px;
+	margin: auto;
+}
+
+.ulp{
+	font-size: 13px;
+	margin-top: 5px;
+	
+}
+
+li p{
+	border-bottom: solid 1px gray;
+	margin-top: 5px
+}
+
+.buttonsubmit{
+
+	margin-top: 30px;
+	text-align: center;
+	margin-bottom: 30px;
+	display: flex;
+
+}
+
+.soushinn{
+	width: 340px;
+	height: 7vh;
+	margin-right: 7px;
+	border-radius: 5px;
+	background-color: gray;
+	color: white;
+	font-size: 20px
+}
+
+.modoru{
+	width: 340px;
+	height: 7vh;
+	margin-left: 7px;
+	border-radius: 5px;
+	background-color: gray;
+	color: #066;
+	font-size: 20px
+}
+　

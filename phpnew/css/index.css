@@ -1,0 +1,192 @@
+@charset "UTF-8";
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	/*font-size: 100%;*/
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+
+}
+　
+body {
+	font-family:'roboto','Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,Osaka,'ＭＳ Ｐゴシック',Arial,sans-serif;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.cart{
+	display: flex;
+}
+
+
+
+.titleback{
+	width: 100%;
+	background-color: #222222
+}
+
+.titlegroup{
+	width: 1000px;
+	margin: 0 auto;
+}
+.title{
+  background: -webkit-linear-gradient(0deg, #40E0D0, #FF8C00, #FF0080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  font-size: 50px
+}
+
+
+
+.colorcircle{
+	width: 1000px;
+	margin: 0 auto
+}
+
+
+.image{
+	
+	background-image: url("../photo/wood1.jpg");
+	height: 130vh;
+	width: auto;
+	background-size: auto 100%;
+	background-position: center ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+
+}
+
+
+
+
+a{
+	color: #fe6464;
+}
+
+img{
+	width: 420px;
+	height: 300px;
+	border-radius: 30%; 
+}
+
+.colorchart{
+	display: flex;
+	
+}
+
+ul{
+
+	justify-content: space-between;
+}
+
+li p{
+	margin-bottom: 5px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.price{
+	position: absolute;
+	left: 33%;
+	top: 31%;
+	font-size: 40px;
+	color: red
+
+}
+.price1{
+	position: absolute;
+	left: 74%;
+	top: 31%;
+	font-size: 40px;
+	color: red
+}
+
+.ulrice{
+	margin-top: 5px;
+	display: flex;
+	
+}
+
+.sandtext{
+	/*background-color: #f4f9ff;*/
+	background-color: #222222;
+	width: 420px;
+	height: 130px;
+	border-radius: 30px
+
+}
+
+.ricetext{
+	background-color: #222222;
+	width: 420px;
+	height: 130px;
+	border-radius: 30px
+}
+
+li{
+	margin-top: 20px
+}
+
+footer{
+	background-color: #222222;
+	height: 100px;
+}
+
+.space1{
+	background-color: #222222;
+	height: 100px
+}
+.menue{
+	
+	padding: 10px 
+}
+
+.menue1{
+	padding: 10px;
+	color: white
+}
+.button{
+	text-align: center;
+	padding-top: 30px;
+}
+button{
+	font-size: 20px;
+	background-color: black;
+	color: white;
+	opacity: 0.7
+}
+
+h2{
+	color: black;
+	opacity: 0.7;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 28px
+}
+
+

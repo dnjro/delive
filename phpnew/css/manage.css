@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	/*font-size: 100%;*/
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+
+}
+　
+body {
+	font-family:'roboto','Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,Osaka,'ＭＳ Ｐゴシック',Arial,sans-serif;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	width: 90%;
+	margin: 0 auto
+}
+
+.dbtable{
+	margin: auto;
+	border: solid 1px silver;
+	margin-bottom: 30px;
+	margin-top: 30px
+}
+
+.dbtable th{
+	padding: 1px;
+	text-align: center;
+	border: solid 1px silver;
+	background-color: whitesmoke;
+}
+
+.dbtable td{
+	padding: 5px 15px;
+	border: solid 1px silver;
+}
+

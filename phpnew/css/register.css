@@ -1,0 +1,205 @@
+@charset "UTF-8";
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	/*font-size: 100%;*/
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+
+}
+　
+body {
+	font-family:'roboto','Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,Osaka,'ＭＳ Ｐゴシック',Arial,sans-serif;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+header{
+	background-color: black;
+	height: 10vh
+}
+footer{
+	background-color: black;
+	height: 10vh
+}
+
+.mainback{
+	background-image: url("../photo/bar.jpg");
+	height: 80vh;
+	width: auto;
+	background-size: auto 100%;
+	background-position: center ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+p{
+	color: #65d1f8 /*#65d1f8*/;
+}
+
+input{
+	background-color: gray ;
+	opacity: 0.7;
+	
+	
+	color: #65d1f8 /*#65d1f8*/;
+}
+
+label{
+	color: #65d1f8 /*#65d1f8*/;
+	opacity: 0.9;
+}
+
+
+.contact{
+	background-color: rgba(0,0,0,0.8);
+}
+
+
+.toiawase{
+	border: solid 1px #3399cc /*#fe6464*/;
+	width: 800px;
+	margin: auto;
+	border-radius: 10px;
+	margin-bottom: 90px;
+}
+
+.text{
+	padding-top: 1px
+}
+
+.toiawase1{
+	width: 700px;
+	margin: auto;
+}
+.toiawasegroup{
+	
+	margin-bottom: 30px
+}
+.toiawasep{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.titleback{
+	
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border-top: solid 1px #3399cc /*#fe6464*/;
+	
+}
+
+.soushinn{
+	margin-top: 7px;
+	margin-bottom: 7px;
+	margin-left: 5px
+}
+span{
+	color: #fe6464
+}
+.soushinnp{
+	margin-bottom: 20px
+}
+
+.liinput{
+	width: 100%;
+	height: 5vh;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	
+}
+
+
+/*
+.inputtext{
+	margin-top: 10px;
+	width: 100%;
+	height: 30vh;
+	
+	margin-bottom: 10px;
+	border-radius: 5px
+}
+*/
+
+
+.submit{
+	background-color: gray;
+	opacity: 0.9;
+	width: 8%;
+	font-size: 15px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #fe6464;
+	border: solid 1px #3399cc;
+}
+
+.submitgroup{
+	
+	width: 700px;
+	text-align: center;
+}
+
+.error{
+	color: #fe6464;
+}
+
+.dbtable{
+	margin: auto;
+	border: solid 1px silver;
+	margin-bottom: 30px
+}
+
+.dbtable th{
+	font-size: 19px;
+	padding:0 15px;
+	text-align: center;
+	border: solid 1px silver;
+	background-color: whitesmoke;
+}
+
+.dbtable td{
+	padding:5px 15px;
+	border: solid 1px silver;
+}
+.updatep{
+	font-size: 50px
+}
+
+.editbuttongroup{
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px
+}
+.editbutton{
+	font-size: 15px
+}
